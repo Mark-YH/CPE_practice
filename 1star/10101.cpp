@@ -59,7 +59,7 @@ int main() {
             continue;
         }
 
-        if (input > 1000000000)
+        if (input >= 1000000000)
             calculate(input / 100, 1, 1);
         else
             calculate(input / 100, 0, 1);
